@@ -1,0 +1,4 @@
+include:
+  - project: "ci/common-ci"
+    ref: master
+    file: "haproxy-ci/index.gitlab-ci.yml"

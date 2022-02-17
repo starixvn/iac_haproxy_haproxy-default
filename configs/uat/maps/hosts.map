@@ -1,0 +1,70 @@
+#domainname           #backendname
+#Tools
+stdeployapi.starixplay.com nexops_deploymentapi_nodes
+stdeployapi2.starixplay.com nexops_deploymentapi_nodes
+haproxy.starixuat.com default_backend_nodes
+
+####Starix
+##Legion
+lapanalytics1.starixuat.com legion_lap_analytics_api_UAT_1_nodes
+lapext1.starixuat.com legion_lap_ext_UAT_1_nodes
+lappa1.starixuat.com legion_lap_player_admin_UAT_1_nodes
+lapbt1.starixuat.com legion_lap_bet_ticket_UAT_1_nodes
+
+##Nexus
+sabanews.starixuat.com nexus_saba_sports_saba_news_site_UAT_nodes
+licbot.starixuat.com nexus_ncb_main_UAT_nodes
+licbotendpoint.starixuat.com nexus_ncb_endpoint_UAT_nodes
+
+##Olympus
+napsettlementcore.starixuat.com olympus_nap_settlement_UAT_nodes_1
+napsettlementcore2.starixuat.com olympus_nap_settlement_UAT_nodes_2
+napsettlementcore3.starixuat.com olympus_nap_settlement_UAT_nodes_3
+napsettlementcore4.starixuat.com olympus_nap_settlement_UAT_nodes_4
+napsettlementcore5.starixuat.com olympus_nap_settlement_UAT_nodes_5
+prmscore.starixuat.com olympus_nap_prms_UAT_nodes
+newowp1.starixuat.com olympus_owp_netcore_v1_nodes
+newowp2.starixuat.com olympus_owp_netcore_v2_nodes
+newowp3.starixuat.com olympus_owp_netcore_v3_nodes
+aav1.starixuat.com olympus_nap_aa_UAT_1_nodes
+aav2.starixuat.com olympus_nap_aa_UAT_2_nodes
+
+##Rome
+napu3v1.starixuat.com rome_nap_u3_UAT_nodes
+intnap.starixuat.com rome_intaccounting_UAT_nodes
+
+#SPU
+spumain.starixuat.com spu_nap_main_service_UAT
+spucts.starixuat.com spu_nap_cts_job_service_UAT
+spuctscc.starixuat.com spu_nap_cts_cc_job_service_UAT
+spudcs.starixuat.com spu_nap_dcs_job_service_UAT
+spufs.starixuat.com spu_nap_fs_job_service_UAT
+spuvr.starixuat.com spu_nap_vr_job_service_UAT
+sputgr.starixuat.com spu_nap_tgr_job_service_UAT
+spuafc.starixuat.com spu_nap_afc_job_service_UAT
+
+###VG3
+
+#SIT
+sit.vgamesuat.com nex3_l3_game_client_nodes_sit
+sitmini.vgamesuat.com nex3_l3_game_client_mini_SIT_nodes
+sitapi.vgamesuat.com nex3_l3_game_api_nodes_sit
+situser.vgamesuat.com nex3_l3_user_nodes_sit
+sitmiddlesite.vgamesuat.com nex3_l3_middle_site_sit
+sitresult.vgamesuat.com nex3_l3_result_nodes_sit
+sitadm.vgamesuat.com nex3_l3_admin_site_nodes_sit
+intsitapi.vgamesuat.com nex3_l3_game_api_nodes_sit
+intsitresult.vgamesuat.com nex3_l3_result_nodes_sit
+intsitmiddlesite.vgamesuat.com nex3_l3_middle_site_sit
+
+#UAT
+uatresult.vgamesuat.com nex3_l3_result_nodes_uat
+uat.vgamesuat.com nex3_l3_game_client_nodes_uat
+uatmini.vgamesuat.com nex3_l3_game_client_mini_UAT_nodes
+uatuser.vgamesuat.com nex3_l3_user_nodes_uat
+uatapi.vgamesuat.com nex3_l3_game_api_nodes_uat
+uatmiddlesite.vgamesuat.com nex3_l3_middle_site_uat
+uatadm.vgamesuat.com nex3_l3_admin_site_nodes_uat
+intuatapi.vgamesuat.com nex3_l3_game_api_nodes_uat
+intuatresult.vgamesuat.com nex3_l3_result_nodes_uat
+intuatmiddlesite.vgamesuat.com nex3_l3_middle_site_uat

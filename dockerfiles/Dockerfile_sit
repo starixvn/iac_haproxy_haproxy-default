@@ -1,0 +1,8 @@
+FROM registry.nexdev.net:5050/docker/haproxy/haproxy-debian:2.4 AS base
+COPY configs/sit /usr/local/etc/haproxy/configs/sit
+RUN ls /usr/local/etc/haproxy/configs
+RUN cat /usr/local/etc/haproxy/configs/sit/*.cfg > /usr/local/etc/haproxy/configs/sit/haproxy.cfg.tmp
+RUN cp /usr/local/etc/haproxy/configs/sit/haproxy.cfg.tmp /usr/local/etc/haproxy/haproxy.cfg
+RUN cat /usr/local/etc/haproxy/haproxy.cfg
+COPY whitelisted.ips /etc/haproxy/whitelisted.ips
+COPY configs/sit/maps/hosts.map /usr/local/etc/haproxy/hosts.map

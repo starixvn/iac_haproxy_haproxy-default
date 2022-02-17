@@ -1,0 +1,52 @@
+#domainname           #backendname
+#Tools
+haproxy.oneops.net default_backend_nodes
+alphalog.starixplay.com alpha_log_nodes
+sentry.starixplay.com sentry_web_prod_nodes
+
+#Nexus
+intuatlicbotendpoint.starixplay.com nexus_ncb_endpoint_nodes_UAT
+licbotendpoint.starixplay.com nexus_ncb_endpoint_nodes_PROD
+licbotwebhook.starixplay.com nexus_ncb_endpoint_nodes_PROD
+licbotwebhook2.starixplay.com nexus_ncb_endpoint_nodes_PROD
+uatlicbotendpoint.starixplay.com nexus_ncb_endpoint_nodes_UAT
+licbot.oneops.net chatbot_ncb_main_PROD_nodes
+licbot2.oneops.net chatbot_ncb_main_PROD_nodes
+licbot3.oneops.net chatbot_ncb_main_PROD_nodes
+vn.sabasports.com nexus_saba_news_nodes_PROD
+www.saba.vn nexus_saba_news_nodes_PROD
+saba.vn nexus_saba_news_nodes_PROD
+thor.12bploutos.com thor_thor_api_PROD_1_nodes
+thor12b.oneops.net:8282 thor_thor_api_PROD_1_nodes
+thornova88.oneops.net:8282 thor_thor_api_PROD_nodes
+api-thor.nova88.com thor_thor_api_PROD_nodes
+thorivorysport.oneops.net:8282 thor_thor_api_PROD_2_nodes
+api-thor.ivorysport.com thor_thor_api_PROD_2_nodes
+#Rome
+intaccounting.oneops.net rome_intaccounting_PROD_nodes
+napu3.oneops.net rome_nap_u3_PROD_nodes
+
+#Legion
+li.amazzu.com legion_lap_identity_server_PROD_nodes
+pa.amazzu.com legion_lap_player_admin_PROD_nodes
+bt.amazzu.com legion_lap_bet_ticket_PROD_nodes
+analytics.amazzu.com legion_lap_analytics_api_PROD_nodes
+
+#Olympus
+settlementcore.oneops.net olympus_nap_settlement_nodes
+settlementcore2.oneops.net olympus_nap_settlement_nodes
+settlementcore3.oneops.net olympus_nap_settlement_nodes
+prmscore.oneops.net olympus_nap_prms_PROD_nodes
+owp1.oneops.net olympus_nap_owp_PROD_nodes
+owp.oneops.net olympus_nap_owp_PROD_nodes
+aa.oneops.net olympus_nap_aa_PROD_nodes
+
+#SPU
+spumain.oneops.net nap_spu_main_service_PROD_nodes
+spucts.oneops.net nap_spu_cts_job_service_PROD_nodes
+spudcs.oneops.net nap_spu_dcs_job_service_PROD_nodes
+spufs.oneops.net nap_spu_fs_job_service_PROD_nodes
+spuvr.oneops.net nap_spu_vr_job_service_PROD_nodes
+spuctscc.oneops.net nap_spu_cts_cc_job_service_PROD_nodes
+sputgr.oneops.net nap_spu_tgr_job_service_PROD_nodes
+spuafc.oneops.net nap_spu_afc_job_service_PROD_nodes

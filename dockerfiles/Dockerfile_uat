@@ -1,0 +1,9 @@
+FROM registry.nexdev.net:5050/docker/haproxy/haproxy-debian:2.4 AS base
+COPY configs/uat /usr/local/etc/haproxy/configs/uat
+RUN ls /usr/local/etc/haproxy/configs
+RUN cat /usr/local/etc/haproxy/configs/uat/*.cfg > /usr/local/etc/haproxy/configs/uat/haproxy.cfg.tmp
+RUN cp /usr/local/etc/haproxy/configs/uat/haproxy.cfg.tmp /usr/local/etc/haproxy/haproxy.cfg
+RUN cat /usr/local/etc/haproxy/haproxy.cfg
+COPY whitelisted.ips /etc/haproxy/whitelisted.ips
+COPY configs/uat/maps/hosts.map /usr/local/etc/haproxy/hosts.map
+COPY configs/uat/maps/uat-vg3-game-proxy.map /usr/local/etc/haproxy/uat-vg3-game-proxy.map

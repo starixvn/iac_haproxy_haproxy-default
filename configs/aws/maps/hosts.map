@@ -1,0 +1,25 @@
+#domainname           #backendname
+#Tools
+stdeployment.sportsfun.app default_backend_nodes
+sthaproxy.sportsfun.app default_backend_nodes
+#Nexus
+sabanews.sportsfun.app nexus_saba_news_nodes
+sabanews-cdn.sportsfun.app nexus_saba_news_upload_nodes
+licbotendpoint.sportsfun.app nexus_bot_service_endpoint_nodes
+letstalkcrm.sportsfun.app nexus_crm_letstalk_nodes
+oddsfeedadmin.sportsfun.app nexus_odds_feed_admin_nodes
+oddsfeedwebservice.sportsfun.app nexus_odds_feed_service_nodes
+#Rome
+#Legion
+analytics.sportsfun.app legion_lap_analytics_api_nodes
+pa.sportsfun.app legion_lap_player_admin_nodes
+bt.sportsfun.app legion_lap_bet_ticket_nodes
+
+#Olympus
+settlementcore.sportsfun.app olympus_nap_settlement_nodes
+prmscore.sportsfun.app olympus_nap_prms_AWS_nodes
+
+#SPU
+ws.sportsfun.app spu_ws_nodes
+sc.sportsfun.app spu_sc_nodes
+fps-api.sportsfun.app spu_fps_api_nodes

@@ -1,0 +1,10 @@
+FROM registry.nexdev.net:5050/docker/haproxy/haproxy-debian:2.4 AS base
+COPY configs/local /usr/local/etc/haproxy/configs/local
+RUN ls /usr/local/etc/haproxy/configs
+RUN cat /usr/local/etc/haproxy/configs/local/*.cfg > /usr/local/etc/haproxy/configs/local/haproxy.cfg.tmp
+RUN cp /usr/local/etc/haproxy/configs/local/haproxy.cfg.tmp /usr/local/etc/haproxy/haproxy.cfg
+RUN cat /usr/local/etc/haproxy/haproxy.cfg
+COPY certs/nexdev.net.pem /etc/haproxy/nexdev.net.pem
+COPY certs/nexcel.vn.pem /etc/haproxy/nexcel.vn.pem
+COPY configs/local/maps/hosts.map /etc/haproxy/hosts.map
+COPY configs/local/maps/vg3-game-proxy.map /etc/haproxy/vg3-game-proxy.map

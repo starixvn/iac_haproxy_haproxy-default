@@ -1,0 +1,14 @@
+#subpath #backend
+/main/ nex3_l3_game_server_nodes
+/blackjack/ nex3_l3_blackjack_nodes
+/fishprawncrabpro/ nex3_l3_fishprawncrabpro_nodes
+/baccaratgames/ nex3_l3_baccaratgames_nodes
+/binarygames/ nex3_l3_binary_games_service_nodes
+/sicbo/ nex3_l3_sicbo_nodes
+/dragontiger/ nex3_l3_dragon_tiger_nodes
+/sedie/ nex3_l3_sedie_nodes
+/minifishprawncrab/ nex3_l3_mini_fish_prawn_crab_nodes
+/kenopromax/ nex3_l3_keno_pro_max_nodes
+/roulette/ nex3_l3_roulette_nodes
+/casinoholdempoker/ nex3_l3_casino_holdem_poker_service_nodes
+/texasholdempoker/ nex3_l3_texas_holdem_poker_service_nodes

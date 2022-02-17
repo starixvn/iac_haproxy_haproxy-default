@@ -1,8 +1,0 @@
-#domainname           backendname
-static.haproxydev.local be_static
-www.haproxydev.local be_www
-api.haproxydev.local be_api
-nginx.haproxydev.local ngin_nodes
-prometheus.haproxydev.local monitoring_prometheus_nodes
-api-proxy.haproxydev.local be_www2
-rocketor2.nexdev.net nexops_rocketor_backend

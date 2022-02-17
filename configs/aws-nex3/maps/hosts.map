@@ -1,7 +1,0 @@
-#domainname           #backendname
-sc3-proxy.sportsfun.app l3_api_proxy_host
-sc3-games.sportsfun.app l3_game_client_nodes
-sc3-api.sportsfun.app l3_api_nodes
-sc3-adm.sportsfun.app l3_admin_site_nodes
-sc3-result.sportsfun.app l3_game_round_result_nodes
-sc3-user.sportsfun.app l3_user_site_nodes

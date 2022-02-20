@@ -1,9 +1,0 @@
-FROM registry.nexdev.net:5050/docker/haproxy/haproxy-debian:2.4 AS base
-COPY configs/prod-nex3 /usr/local/etc/haproxy/configs/prod-nex3
-RUN ls /usr/local/etc/haproxy/configs
-RUN cat /usr/local/etc/haproxy/configs/prod-nex3/*.cfg > /usr/local/etc/haproxy/configs/prod-nex3/haproxy.cfg.tmp
-RUN cp /usr/local/etc/haproxy/configs/prod-nex3/haproxy.cfg.tmp /usr/local/etc/haproxy/haproxy.cfg
-RUN cat /usr/local/etc/haproxy/haproxy.cfg
-COPY whitelisted.ips /etc/haproxy/whitelisted.ips
-COPY configs/prod-nex3/maps/hosts.map /usr/local/etc/haproxy/hosts.map
-COPY configs/prod-nex3/maps/game-proxy.map /usr/local/etc/haproxy/game-proxy.map

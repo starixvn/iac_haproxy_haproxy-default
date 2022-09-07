@@ -9,19 +9,22 @@ if [ "$#" -lt 2 ]; then
 fi
 
 DOMAIN=$1
-EMAIL=$2
-OPTIONS=$3
+DOMAIN2=$2
+DOMAIN3=$3
+DOMAIN4=$4
+EMAIL=$5
+OPTIONS=$6
 
 docker run --rm \
   -v $PWD/letsencrypt:/etc/letsencrypt \
   -v $PWD/webroot:/webroot \
   certbot/certbot \
   certonly --webroot -w /webroot \
-  -d $DOMAIN \
+  -d $DOMAIN -d $DOMAIN2 -d $DOMAIN3 -d $DOMAIN4 \
   --email $EMAIL \
   --non-interactive \
   --agree-tos \
-  $3
+  $6
 
 # Merge private key and full chain in one file and add them to haproxy certs folder
 function cat-cert() {

@@ -1,0 +1,2 @@
+./create-cert.sh sabavn.com www.sabavn.com admin.sabavn.com cdn.sabavn.com troy.vo@starixvn.com
+./create-cert.sh sabavn.net www.sabavn.net admin.sabavn.net cdn.sabavn.net troy.vo@starixvn.com

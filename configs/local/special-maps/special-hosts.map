@@ -1,3 +1,4 @@
 telegrambot-receiver.nexdev.net rome_telegrambot_receiver_LOCAL_be
+telegrambot-receiver.nexdev.net/customer(/.*) rome_fanex_customer_setting_site_LOCAL_path_be
 licbot.nexdev.net nexus_chatbot_ncb_service_endpoint_LOCAL_be
 chatbot-webhook.nexdev.net rome_alpha_letstalk_webhook_LOCAL_be

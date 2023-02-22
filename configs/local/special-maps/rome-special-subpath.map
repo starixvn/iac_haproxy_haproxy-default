@@ -1,2 +1,2 @@
-/customer(/.*) rome_fanex_customer_setting_site_LOCAL_path_be
-/ rome_telegrambot_receiver_LOCAL_be
+^/customer(/.*)?$ rome_fanex_customer_setting_site_LOCAL_path_be
+^/ rome_telegrambot_receiver_LOCAL_be
